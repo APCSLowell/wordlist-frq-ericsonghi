@@ -26,10 +26,7 @@ return x;
         myList.remove(i); 
       }else{
         i++;
-    }
-  } 
-}
-
-
+      }
+    } 
   }
 }
