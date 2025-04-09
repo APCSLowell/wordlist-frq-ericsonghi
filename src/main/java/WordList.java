@@ -22,12 +22,13 @@ return x;
   public void removeWordsOfLength(int len)
   {
   while (i < myList.size()) {
-      if ((myList.get(i)).length() == len)
+      if ((myList.get(i)).length() == len){
         myList.remove(i); 
-      else
+      }else{
         i++;
     }
   } 
+}
 
 
   }
